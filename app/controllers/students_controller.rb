@@ -9,7 +9,6 @@ class StudentsController < ApplicationController
   end
   
   def new
-    @student = Student.create(params)
     redirect_to student_path
   end
   
